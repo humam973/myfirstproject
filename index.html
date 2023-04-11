@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="stylesheet" href="the-style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Age calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <script src="/the-javas.js"></script>
+
+</head>
+<body>
+<div id="the-card">
+  <div id="the-inputs">
+    <div id="the-day-input">
+      <p id="1">DAY</p>
+      <input id="day-input" placeholder="DD" >
+      <p id="1.2" class="action-p"></p>
+    </div>
+    <div id="the-month-input">
+      <p id="2">MONTH</p>
+      <input id="month-input" placeholder="MM">
+      <p id="2.2" class="action-p"></p>
+    </div>
+    <div id="the-year-input">
+      <p id="3">YEAR</p>
+      <input id="year-input" placeholder="YYYY">
+      <p id="3.2" class="action-p"></p>
+    </div>
+
+    
+  </div>
+
+<div id="the-line-button">
+<hr id="hr1">
+<div id="the-button"><button onclick="buttonfc()"></button></div>
+<hr id="hr2">
+</div>
+
+  <div id="the-age">
+ <i>
+    <div id="year-cont" class="result">
+     <div><p class="result-age" id="result-year">- -</p></div>
+     <div><p>years</p></div>
+    </div><div id="month-cont" class="result">
+      <div><p class="result-age" id="result-month">- -</p></div>
+      <div><p>months</p></div>
+    </div><div id="day-cont" class="result">
+     <div> <p class="result-age" id="result-day">- -</p></div>
+      <div><p>days</p></div>
+    </div>
+  </i>
+    
+  </div>
+
+
+</div>
+</body>
+</html>
